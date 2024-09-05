@@ -35,7 +35,7 @@ function loaderAnimation() {
 
   tl.from("#loader .child span", {
     x: 160,
-    duration: 1.4,
+    duration: 1,
     stagger: 0.2,
     delay: 1,
     ease: Power3.easeInOut,
@@ -81,7 +81,7 @@ function animateHomepage() {
     .to("#home .parent .child", {
       y: 0,
       stagger: 0.05,
-      duration: 1.5,
+      duration: 1,
       ease: Expo.easeInOut,
     })
     .to("#home .row img ", {
