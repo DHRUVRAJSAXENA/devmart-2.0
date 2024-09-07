@@ -72,7 +72,9 @@ body {
   /* display: none; */
   width: 100%;
   height: 100vh;
-  background-color: #14cf93;
+  /* background-color: #14cf93; */
+  background-image: linear-gradient(90deg, #6e48ff 0, #cf40ff 48%, #ffa22c);
+
   position: absolute;
   z-index: 999;
   top: 100%;
@@ -80,11 +82,11 @@ body {
 
 #home {
   width: 100%;
-  /* height: 190vh; */
-  /* height: 500vh; */
-  /* height: 100%; */
+
   height: auto;
-  background-color: #fcfaf8;
+  /* background-color: #fcfaf8; */
+  background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+  /* background-image: url("/3150060.jpg"); */
 }
 
 #home #nav {
@@ -101,7 +103,7 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 300;
-  font-size: 12px;
+  font-size: 15px;
   color: #000;
 }
 
@@ -109,8 +111,8 @@ body {
   position: absolute;
   display: inline-block;
   height: 1px;
-  background-color: #000;
-
+  /* background-color: #000; */
+  background-image: linear-gradient(90deg, #6e48ff 0, #cf40ff 48%, #ffa22c);
   bottom: 0;
 }
 
@@ -159,8 +161,22 @@ body {
 }
 
 .row h5 {
-  opacity: 0.6;
+  opacity: 0.8;
   font-size: 11px;
+  font-weight: 500;
+}
+
+.hero_gradientTextBackground__51BXa {
+  font-family: Gilroy;
+  background-image: linear-gradient(90deg, #6e48ff 0, #cf40ff 48%, #ffa22c);
+  /* background-image: linear-gradient(135deg, #14cf93, #0d8b63); */
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  font-size: 11vw;
   font-weight: 500;
 }
 
@@ -171,6 +187,12 @@ body {
 .row svg {
   height: 9vw;
   margin: 0 2.5vw;
+}
+
+.row video {
+  width: 160px;
+  border-radius: 100px;
+  height: 130px;
 }
 
 path,
@@ -274,6 +296,7 @@ polyline {
 .maz {
   font-style: italic;
   color: #14cf93;
+  /* background-image: linear-gradient(90deg, #6e48ff 0, #cf40ff 48%, #ffa22c); */
 }
 
 .workrow h1 {
