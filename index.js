@@ -22,12 +22,12 @@ function valueSetters() {
   gsap.set("#home .parent .child", { y: "100%" })
   gsap.set("#home .row img", { opacity: 0 })
 
-  document.querySelectorAll("#Visual>g").forEach(function (e) {
-    e.childNodes[1].childNodes[1].style.strokeDasharray =
-      e.childNodes[1].childNodes[1].getTotalLength() + "px"
-    e.childNodes[1].childNodes[1].style.strokeDashoffset =
-      e.childNodes[1].childNodes[1].getTotalLength() + "px"
-  })
+  // document.querySelectorAll("#Visual>g").forEach(function (e) {
+  //   e.childNodes[1].childNodes[1].style.strokeDasharray =
+  //     e.childNodes[1].childNodes[1].getTotalLength() + "px"
+  //   e.childNodes[1].childNodes[1].style.strokeDashoffset =
+  //     e.childNodes[1].childNodes[1].getTotalLength() + "px"
+  // })
 }
 
 function loaderAnimation() {
