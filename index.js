@@ -102,12 +102,12 @@ function animateSvg() {
   })
 }
 
-function locomotive() {
-  var scroll = new LocomotiveScroll({
-    el: document.querySelector("#main"),
-    smooth: true,
-  })
-}
+// function locomotive() {
+//   var scroll = new LocomotiveScroll({
+//     el: document.querySelector("#main"),
+//     smooth: true,
+//   })
+// }
 
 function cardShow() {
   document.querySelectorAll(".cnt").forEach(function (cnt) {

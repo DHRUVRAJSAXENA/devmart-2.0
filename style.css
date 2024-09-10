@@ -89,13 +89,19 @@ body {
   /* background-image: url("/3150060.jpg"); */
 }
 
-#home #nav {
+#nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  /* background: rgba(0, 0, 0, 0.5); */
+  background: #e6effd;
+
   padding: 0 5vw;
   width: 100%;
-  height: 100px;
+  height: 60px;
+  /* position: sticky; */
+  z-index: 999;
+  top: 0;
 }
 
 #nav a {
@@ -104,7 +110,8 @@ body {
   text-transform: uppercase;
   font-weight: 300;
   font-size: 15px;
-  color: #000;
+  /* color: #fff; */
+  color: linear-gradient(90deg, #6e48ff 0, #cf40ff 48%, #ffa22c);
 }
 
 #nav a .line {
@@ -143,7 +150,7 @@ body {
   justify-content: space-between;
   width: 100%;
   color: #333;
-  padding: 2px 6vw;
+  padding: 2px 0vw;
   /* padding-right: 12vw; */
   line-height: 1.2;
   align-items: center;
@@ -383,8 +390,14 @@ section {
   display: grid;
   place-items: center;
   background-color: #fcfaf8;
+  /* background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%); */
+  /* background-image: linear-gradient(to top, #e7f0fd 0%, #accbee 100%); */
+
   padding-bottom: 100px;
   /* margin-bottom: 100px; */
+}
+#services {
+  background-image: linear-gradient(to top, #e7f0fd 0%, #accbee 100%);
 }
 .section-heading {
   font-size: 8vw;
@@ -405,6 +418,7 @@ section {
   height: 100%;
   padding: 2em 1.5em;
   background: linear-gradient(#ffffff 50%, #14cf93 50%);
+  /* background: linear-gradient(90deg, #6e48ff 0, #cf40ff 48%, #ffa22c); */
   background-size: 100% 200%;
   background-position: 0 2.5%;
   border-radius: 5px;
@@ -504,7 +518,8 @@ section {
 
 /* contact us */
 #contact {
-  background-color: #f2f2f2;
+  /* background-color: #f2f2f2; */
+  background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
 }
 .contact_us_green .responsive-container-block {
   min-height: 75px;
@@ -532,10 +547,7 @@ section {
 }
 
 .contact_us_green .text-blk {
-  margin-top: 0px;
-  margin-right: 0px;
-  margin-bottom: 0px;
-  margin-left: 0px;
+  margin: 0;
   line-height: 25px;
 }
 
